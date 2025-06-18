@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💖 Happy Birthday, My Love! 💖</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!-- Love Popup -->
+    <div id="lovePopup" class="popup-overlay">
+      <div class="popup-content">
+        <h2>Are you ready, my love? 💖</h2>
+        <button id="startBtn">Yes, I'm Ready 💕</button>
+      </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements"></div>
+
+    <!-- Hidden Music Player (auto-plays) -->
+    <div class="music-player">
+      <audio id="backgroundMusic" src="assets/perfect.mp3">
+        <!-- Fallback audio source -->
+      </audio>
+    </div>
+
+    <div class="main-container">
+      <!-- Header Section -->
+      <div class="glass-card">
+        <div class="header">
+          <h1 class="main-title">💖 Happy Birthday, My Love! 💖</h1>
+          <p class="subtitle">
+            🌹 I’m truly sorry for the late wish — I’ve been a little unwell,
+            but honestly, you never left my thoughts for a second. You hold such
+            a special place in my heart, and missing your birthday on time felt
+            like missing a moment that mattered deeply. I hope your day was as
+            wonderful as your presence is in the lives of everyone lucky enough
+            to know you. You deserve nothing but the purest happiness, always.
+            Please take care — you mean more to me than words can ever fully
+            express. 💕
+          </p>
+        </div>
+      </div>
+
+      <!-- Cake Section -->
+      <div class="glass-card">
+        <div class="cake-section">
+          <div class="birthday-cake">
+            <div class="cake-plate"></div>
+            <div class="cake-base">
+              <div class="cake-decoration decoration-1"></div>
+              <div class="cake-decoration decoration-2"></div>
+              <div class="cake-decoration decoration-3"></div>
+              <div class="cake-decoration decoration-4"></div>
+            </div>
+            <div class="cake-top"></div>
+            <div class="candle candle-1">
+              <div class="flame"></div>
+            </div>
+            <div class="candle candle-2">
+              <div class="flame"></div>
+            </div>
+            <div class="candle candle-3">
+              <div class="flame"></div>
+            </div>
+            <div class="candle candle-4">
+              <div class="flame"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wishes Section -->
+      <div class="glass-card">
+        <div class="wishes-section">
+          <div class="wish-container">
+            <p class="wish-text active" id="currentWish">
+              💕 No one loves you more than I do. Happy Birthday, my heart! 💖
+            </p>
+          </div>
+
+          <div class="navigation">
+            <button class="nav-btn" id="prevBtn">← Previous</button>
+            <div class="wish-counter">
+              <span id="currentIndex">1</span> of
+              <span id="totalWishes">100</span> 🎂
+            </div>
+            <button class="nav-btn" id="nextBtn">Next →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
