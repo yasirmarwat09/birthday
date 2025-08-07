@@ -153,7 +153,6 @@ const wishes = [
   "💌 Thanks for being a friend who makes life extra special! 🎈",
   "🥳 Here’s to you — a wonderful friend and a beautiful soul! 🎉",
   "🎂 Let the candles sparkle as brightly as your spirit! 🕯️",
-  "🧁 You’re as sweet as icing — and just as fun! 🍰",
   "🌄 Hope your year ahead is calm, creative, and kind! 🌞",
   "🎉 From morning smiles to evening stars — make it magical! 🌙",
   "🌻 Wishing you peace in your heart and sunshine in your life! ☀️",
